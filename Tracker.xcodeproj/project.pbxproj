@@ -12,6 +12,8 @@
 		3014E2B82A9F7B08008CE74D /* MainScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3014E2B72A9F7B08008CE74D /* MainScreenVC.swift */; };
 		3014E2BB2A9F7B08008CE74D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3014E2B92A9F7B08008CE74D /* Main.storyboard */; };
 		3014E2BD2A9F7B08008CE74D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3014E2BC2A9F7B08008CE74D /* Assets.xcassets */; };
+		30B127232AB0E82100CE9B89 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B127222AB0E82100CE9B89 /* TabBarController.swift */; };
+		30B127252AB0EE7700CE9B89 /* StatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B127242AB0EE7700CE9B89 /* StatsVC.swift */; };
 		30F05D592AA5D93C00C47794 /* ColorsExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F05D582AA5D93C00C47794 /* ColorsExtention.swift */; };
 		30F05D5B2AA5E74800C47794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F05D5A2AA5E74800C47794 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,8 @@
 		3014E2BA2A9F7B08008CE74D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3014E2BC2A9F7B08008CE74D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3014E2C12A9F7B08008CE74D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30B127222AB0E82100CE9B89 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		30B127242AB0EE7700CE9B89 /* StatsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsVC.swift; sourceTree = "<group>"; };
 		30F05D582AA5D93C00C47794 /* ColorsExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsExtention.swift; sourceTree = "<group>"; };
 		30F05D5A2AA5E74800C47794 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +70,8 @@
 				3014E2BC2A9F7B08008CE74D /* Assets.xcassets */,
 				3014E2C12A9F7B08008CE74D /* Info.plist */,
 				30F05D582AA5D93C00C47794 /* ColorsExtention.swift */,
+				30B127222AB0E82100CE9B89 /* TabBarController.swift */,
+				30B127242AB0EE7700CE9B89 /* StatsVC.swift */,
 			);
 			path = Tracker;
 			sourceTree = "<group>";
@@ -143,8 +149,10 @@
 			files = (
 				30F05D592AA5D93C00C47794 /* ColorsExtention.swift in Sources */,
 				3014E2B82A9F7B08008CE74D /* MainScreenVC.swift in Sources */,
+				30B127252AB0EE7700CE9B89 /* StatsVC.swift in Sources */,
 				3014E2B42A9F7B08008CE74D /* AppDelegate.swift in Sources */,
 				3014E2B62A9F7B08008CE74D /* SceneDelegate.swift in Sources */,
+				30B127232AB0E82100CE9B89 /* TabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
